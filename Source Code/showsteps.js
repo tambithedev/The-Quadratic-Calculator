@@ -1,4 +1,4 @@
-function showsteps(a, b, c) {
+function showSteps(a, b, c) {
 
 	//show variables being used at the beginning
 	document.getElementById(/*"displaycoefficientsvariable"*/).innerHTML =
@@ -18,7 +18,7 @@ function showsteps(a, b, c) {
 	let I;
 	I = (0 - b) - D;
 	let roots;
-	roots = calcroots(a, b, c); //this function is found in calcroots.js
+	roots = calcRoots(a, b, c); //this function is found in calcroots.js
 
 //step 1: discriminant	
 	//show Discriminant formula
