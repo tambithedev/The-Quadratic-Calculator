@@ -1,6 +1,0 @@
--calculate roots - calcroots(a,b,c)
--wrong answers only randomization - selectwao()
--show solution steps - showsteps(a,b,c)
--calculate discriminant - calcdisc(a,b,c)
--[potentially] calculate button for regular WAO
-I THINK I'M COOKING CHAT 
