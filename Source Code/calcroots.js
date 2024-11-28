@@ -1,4 +1,4 @@
-function calcroots(a, b, c) {
+function calcRoots(a, b, c) {
 	let D;
 	D = (Math.pow(b, 2)) - (4 * a * c);
 	let root1;
