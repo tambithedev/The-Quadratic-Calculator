@@ -16,7 +16,7 @@ function calcRoots(a, b, c) {
 	document.getElementById("step4var3").innerHTML = ""
 
 //validate whether it's a number	
-	if ((isNaN(a)) || (isNaN(b)) || (isNaN(c))) {
+		if ((isNaN(a)) || (isNaN(b)) || (isNaN(c)) || (a == 0)) {
 		window.alert("Invalid Input.");
 		return "";
 	}
