@@ -11,7 +11,7 @@ function selectWao() {
 			const button = document.getElementById("wao");
 
 			button.addEventListener('click', () => {
-			  const url = "rwao.html"; //PLACEHOLDER
+			  const url = "rwao.html";
 			  location.href = `${url}?key=${randomSelection}`;
 			});
 			break;
