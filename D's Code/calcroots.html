@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculate Roots</title>
+    <style>
+        /* Styling for smaller heading text */
+        .small-heading {
+            font-size: 1.2rem; /* Slightly larger font size */
+            color: white; /* Set the text color to white */
+            text-align: center; /* Center the text */
+            margin-top: 10px; /* Space above */
+            margin-bottom: 20px; /* Space below */
+            text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7); /* Add a subtle glow effect */
+        }
+    </style>
+    <link rel="stylesheet" href="calcroots.css">
+</head>
+<body>
+
+<h1>Quadratic Calculator</h1>
+<a href="index.html">
+    <button>Home</button>
+</a>
+<h1>Enter in the format:+/-ax<sup>2</sup>+/-bx+/-c</h1>
+<form>
+    <input id="a" name="a">
+    <input id="b" name="b">
+    <input id="c" name="c">
+    <h1>    </h1>
+    <button type="button" onclick="showSteps(document.getElementById('a').value,document.getElementById('b').value,document.getElementById('c').value)">Show Solution Steps</button>
+    <button type="button" onclick="(calcRoots(document.getElementById('a').value,document.getElementById('b').value,document.getElementById('c').value))">Calculate</button>
+    <a href="calcdisc.html">
+        <button>Calculate Discriminant</button>
+    </a>
+</form>
+<!-- ELEMENTS FOR calcRoots() -->
+<p id="Root 1"></p>
+<p id="Root 2"></p>
+<h2 id="negDisc"></h2>
+
+<p id="displayCoefficients"></p>
+<p id="step1var1"></p>
+<p id="step1var2"></p>
+<p id="step2var1"></p>
+<p id="step2var2"></p>
+<p id="step3var1"></p>
+<p id="step3var2"></p>
+<p id="step3var3"></p>
+<p id="step4var1"></p>
+<p id="step4var2"></p>
+<p id="step4var3"></p>
+
+<script src="calcroots.js" type="text/javascript"></script>
+<script src="showsteps.js" type="text/javascript"></script>
+
+
+</body>
+</html>
