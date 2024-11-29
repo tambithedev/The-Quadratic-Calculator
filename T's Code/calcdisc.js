@@ -1,9 +1,12 @@
 function calcDisc(a, b, c) {
-//first, hide element from a potential previous calculation 
+//first, hide elements from a potential previous calculation 
 	document.getElementById("Discriminant").innerHTML = ""
+	document.getElementById("displayCoefficients").innerHTML = ""
+	document.getElementById("step1var1").innerHTML = ""
+	document.getElementById("step1var2").innerHTML = ""
 
 //validate whether it's a number
-	if ((isNaN(a)) || (isNaN(b)) || (isNaN(c))) {
+	if ((isNaN(a)) || (isNaN(b)) || (isNaN(c)) || (a == 0)) {
 	window.alert("Invalid Input.");
 	return "";
 	}
