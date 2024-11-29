@@ -1,5 +1,5 @@
-function calcdisc(a, b, c) {
-		if ((isNaN(a)) || (is NaN(b)) || (isNaN(c))) {
+function calcDisc(a, b, c) {
+		if ((isNaN(a)) || (isNaN(b)) || (isNaN(c))) {
 		window.alert("Invalid Input.");
 		return "";
 	}
