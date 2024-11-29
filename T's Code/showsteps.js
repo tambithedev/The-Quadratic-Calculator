@@ -1,7 +1,5 @@
 function showSteps(a, b, c) {
-	//hide all variables from a potential previous showing of steps
-	document.getElementById("displayCoefficients").innerHTML ="";
-
+	
 	//show variables being used at the beginning
 	document.getElementById("displayCoefficients").innerHTML =
 		"a = " + a + "<br>" + "b = "+ b + "<br>" + "c = " + c;
