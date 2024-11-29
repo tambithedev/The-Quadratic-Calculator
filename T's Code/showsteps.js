@@ -1,5 +1,11 @@
 function showSteps(a, b, c) {
-	
+
+	//validate whether it's a number	
+	if ((isNaN(a)) || (isNaN(b)) || (isNaN(c)) || (a == 0)) {
+		window.alert("Invalid Input.");
+		return "";
+	}
+
 	//show variables being used at the beginning
 	document.getElementById("displayCoefficients").innerHTML =
 		"a = " + a + "<br>" + "b = "+ b + "<br>" + "c = " + c;
