@@ -11,13 +11,13 @@ function selectWao() {
 			const button = document.getElementById("wao");
 
 			button.addEventListener('click', () => {
-			  const url = "testpage.html"; //PLACEHOLDER
-			  location.href = `${url}?${key=randomSelection}`;
+			  const url = "rwao.html"; //PLACEHOLDER
+			  location.href = `${url}?key=${randomSelection}`;
 			});
 			break;
 	//the rest go to the "special" wrong answer pages
 		case 5:
-			location.href = "" /*"ccPageUrl"*/;
+			location.href = "swao1.html";
 			break;
 		case 6:
 			location.href = "" /*"parkourPageUrl"*/;
