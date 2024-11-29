@@ -9,7 +9,8 @@
     <a href="index.html">
         <button>Home</button>
     </a>
-    <h1 class="small-heading">Enter in the format: +/-ax<sup>2</sup>+/-bx+/-c</h1>
+    <h1>Enter in the format: ax<sup>2</sup>+bx+c</h1>
+    <h1>Negative numbers are also accepted.</h1>
     <form>
         <input id="a" name="a" placeholder="Enter value for a">
         <input id="b" name="b" placeholder="Enter value for b">
@@ -17,14 +18,10 @@
         <h1>    </h1>
         <button type="button" onclick="showSteps(a,b,c)">Show solution steps</button>
         <button type="button" onclick="calcDisc(document.getElementById('a').value,document.getElementById('b').value,document.getElementById('c').value)">Calculate</button>
-        <a href="calcdisc.html">
-            <button>Calculate Discriminant</button>
-        </a>
     </form>
 
     <script src="calcdisc.js" type="text/javascript"></script>
     <script src="showsteps.js" type="text/javascript"></script>
-
 
 </body>
 </html>
