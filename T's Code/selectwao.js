@@ -8,27 +8,27 @@ function selectWao() {
 		case 2:
 		case 3:
 		case 4:
-			const button = document.getElementById(/*"buttonName*/);
+			const button = document.getElementById("wao");
 
 			button.addEventListener('click', () => {
-			  const url = /*"regularWaoUrl"*/;
-			  location.href = `${url}?${key1=randomSelection}`;
+			  const url = "testpage.html"; //PLACEHOLDER
+			  location.href = `${url}?${key=randomSelection}`;
 			});
 			break;
 	//the rest go to the "special" wrong answer pages
 		case 5:
-			location.href = /*"ccPageUrl"*/;
+			location.href = "" /*"ccPageUrl"*/;
 			break;
 		case 6:
-			location.href = /*"parkourPageUrl"*/;
+			location.href = "" /*"parkourPageUrl"*/;
 			break;
 		case 7:
-			location.href = /*"sleepPageUrl"*/;
+			location.href = "" /*"sleepPageUrl"*/;
 			break;
 		case 8:
-			location.href = /*"graphPageUrl"*/;
+			location.href = "" /*"graphPageUrl"*/;
 			break;
 		case 9:
-			location.href = /*"-1/12PageUrl"*/;
+			location.href = "" /*"-1/12PageUrl"*/;
 	}
 }
