@@ -1,4 +1,4 @@
-function showsteps(a, b, c) {
+function showSteps(a, b, c) {
 
 	//show variables being used at the beginning
 	document.getElementById(/*"displaycoefficientsvariable"*/).innerHTML =
@@ -56,3 +56,4 @@ function showsteps(a, b, c) {
 	document.getElementById(/*"step4variable3"*/).innerHTML =
 		"∴ Root 2 = " + roots[1];
 }
+
