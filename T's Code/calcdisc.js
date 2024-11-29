@@ -1,9 +1,15 @@
 function calcDisc(a, b, c) {
-		if ((isNaN(a)) || (isNaN(b)) || (isNaN(c))) {
-		window.alert("Invalid Input.");
-		return "";
+//first, hide element from a potential previous calculation 
+	document.getElementById("Discriminant").innerHTML = ""
+
+//validate whether it's a number
+	if ((isNaN(a)) || (isNaN(b)) || (isNaN(c))) {
+	window.alert("Invalid Input.");
+	return "";
 	}
+
+//show value
 	let D;
 	D = (Math.pow(b, 2)) - (4 * a * c);
-	return D;
+	document.getElementById("Discriminant").innerHTML = "D = " + D
 }
