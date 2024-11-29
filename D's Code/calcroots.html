@@ -22,7 +22,8 @@
 <a href="index.html">
     <button>Home</button>
 </a>
-<h1>Enter in the format:+/-ax<sup>2</sup>+/-bx+/-c</h1>
+<h1>Enter in the format: ax<sup>2</sup>+bx+c</h1>
+<h1>Negative numbers are also accepted.</h1>
 <form>
     <input id="a" name="a">
     <input id="b" name="b">
@@ -30,11 +31,10 @@
     <h1>    </h1>
     <button type="button" onclick="showSteps(document.getElementById('a').value,document.getElementById('b').value,document.getElementById('c').value)">Show Solution Steps</button>
     <button type="button" onclick="(calcRoots(document.getElementById('a').value,document.getElementById('b').value,document.getElementById('c').value))">Calculate</button>
-    <a href="calcdisc.html">
-        <button>Calculate Discriminant</button>
-    </a>
 </form>
-
+<a href="calcdisc.html">
+    <button>Calculate Discriminant</button>
+</a>
 <p id="Root 1"></p>
 <p id="Root 2"></p>
 <h2 id="negDisc"></h2>
