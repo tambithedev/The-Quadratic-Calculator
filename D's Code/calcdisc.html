@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Calculate Discriminants</title>
+    <link rel="stylesheet" href="calcdisc.css">
 </head>
 <body>
 <a href="index.html">
@@ -15,12 +16,18 @@
         <input id="b" name="b" placeholder="Enter value of b:">
         <input id="c" name="c" placeholder="Enter value of c:">
         <h1>    </h1>
-        <button type="button" onclick="showSteps(a,b,c)">Show solution steps</button>
         <button type="button" onclick="calcDisc(document.getElementById('a').value,document.getElementById('b').value,document.getElementById('c').value)">Calculate</button>
+        <p hidden> <button type="button" onclick="showDiscSteps(document.getElementById('a').value,document.getElementById('b').value,document.getElementById('c').value)">Show Solution Steps</button></p>
+
     </form>
 
+<p id="Discriminant"></p>
+<p id="displayCoefficients"></p>
+<p id="step1var1"></p>
+<p id="step1var2"></p>
+
     <script src="calcdisc.js" type="text/javascript"></script>
-    <script src="showsteps.js" type="text/javascript"></script>
+<script src="showdiscsteps.js" type="text/javascript"></script>
 
 </body>
 </html>
