@@ -96,13 +96,6 @@ h3 {
     color: white; /* Makes "Negative numbers are also accepted" white */
 }
 
-h1 + h1 {
-    font-size: 1.2rem;
-    color: #ddd;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
 .small-text {
     font-size: 0.8em; 
     color: #aaa; 
