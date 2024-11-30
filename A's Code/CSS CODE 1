@@ -114,16 +114,6 @@ a {
     text-transform: uppercase;
 }
 
-.calculator {
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 15px;
-    padding: 20px;
-    width: 90%;
-    max-width: 500px;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
-}
-
-
 .buttons {
     margin: 10px 0;
 }
@@ -168,15 +158,6 @@ a h1 {
 
 h3 {
     color: white; /* Makes "Negative numbers are also accepted" white */
-}
-
-.calculator {
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 15px;
-    padding: 20px;
-    width: 90%;
-    max-width: 500px;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
 }
 
 .buttons {
