@@ -52,7 +52,6 @@ button:hover {
 
 a {
     text-decoration: none;
-    box-sizing: border-box;
 }
 
 h1 + h1 {
