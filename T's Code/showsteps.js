@@ -45,19 +45,19 @@ function showSteps(a, b, c) {
 //step 3: solution 1
 	//write out step
 	document.getElementById("step3var1").innerHTML =
-		"Step 3 - Calculate Root 1: (-b + D) ÷ 2⋅a";
+		"Step 3 - Calculate first root: (-b + D) ÷ 2⋅a";
 	//do the thing (again)
 	document.getElementById("step3var2").innerHTML =
 		(0 - b) + " + " + G + " = " + H + "<br>2⋅a = " + (2 * a);
 	document.getElementById("step3var3").innerHTML =
-		"∴ Root 1 = " + roots[0];
+		"∴ X<sub>1</sub> = " + roots[0];
 //step 4: solution 2
 	//write out step
 	document.getElementById("step4var1").innerHTML =
-		"Step 3 - Calculate Root 1: (-b - D) ÷ 2⋅a";
+		"Step 3 - Calculate second root: (-b - D) ÷ 2⋅a";
 	//do the thing (again x2)
 	document.getElementById("step4var2").innerHTML =
 		(0 - b) + " - " + G + " = " + I + "<br>2⋅a = " + (2 * a);
 	document.getElementById("step4var3").innerHTML =
-		"∴ Root 2 = " + roots[1];
+		"∴ X<sub>2</sub> = " + roots[1];
 }
