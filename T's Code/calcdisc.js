@@ -11,6 +11,10 @@ function calcDisc(a, b, c) {
 	return "";
 	}
 
+//show show solution steps button
+let p = document.getElementById('showStepsButton');
+p.removeAttribute("hidden");
+
 //show value
 	let D;
 	D = (Math.pow(b, 2)) - (4 * a * c);
