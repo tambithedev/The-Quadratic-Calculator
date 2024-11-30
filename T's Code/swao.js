@@ -16,12 +16,12 @@ function tteresult() {
 	const beefNo = urlParams.get('key2');
 	const vineNo = urlParams.get('key3');
 //output results	
-	document.getElementById("beef").innerHTML = (beefNo + 1 - 1) + " jumps for the beef," 
-	document.getElementById("chicken").innerHTML = (chickenNo + 1 - 1) + " jumps for the chicken,"	
-	document.getElementById("vineBooms").innerHTML = "and " + (vineNo + 1 - 1) + " vine booms along the way."	
+	document.getElementById("beef").innerHTML = "<b>" + (beefNo + 1 - 1) + "</b>" + " jumps for the beef," 
+	document.getElementById("chicken").innerHTML = "<b>" + (chickenNo + 1 - 1) + "</b>" + " jumps for the chicken,"	
+	document.getElementById("vineBooms").innerHTML = "and " + "<b>" + (vineNo + 1 - 1) + "</b>" + " vine booms along the way."	
 		//the +1-1 thing is to fix a weird thing that happens when you press Calculate with empty fields.
 //output rank and bonus message
-	if ((beefNo < chickenNo) || (beefNo == 0)) {
+	if ((chickenNo > beefNo) || (beefNo == 0)) {
 		document.getElementById("rank").innerHTML = "You are a parkour noob."
 	} else if (beefNo == chickenNo) {
 		document.getElementById("rank").innerHTML = "You are a parkour Pro."
