@@ -35,3 +35,11 @@ function tteresult() {
 		document.getElementById("bonus").innerHTML = "No vine booms? L rizz." 
 	}
 }
+
+function revealRank() {
+	let p = document.getElementById('rank');
+	p.removeAttribute("hidden");
+	let q = document.getElementById('bonus');
+	q.removeAttribute("hidden");
+
+}
