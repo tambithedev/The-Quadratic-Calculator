@@ -34,6 +34,7 @@ function tteresult() {
 	} else if (vineNo == 0) {
 		document.getElementById("bonus").innerHTML = "No vine booms? L rizz." 
 	}
+	window.alert('Achievement Unlocked: "The True Ending"\nMaybe the real calculator was the jumps we made along the way.')
 }
 
 function revealRank() {
@@ -41,5 +42,4 @@ function revealRank() {
 	p.removeAttribute("hidden");
 	let q = document.getElementById('bonus');
 	q.removeAttribute("hidden");
-
 }
