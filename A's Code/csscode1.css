@@ -52,6 +52,7 @@ button:hover {
 
 a {
     text-decoration: none;
+    box-sizing: border-box;
 }
 
 h1 + h1 {
@@ -82,10 +83,6 @@ h1 {
 
 a h1 {
     color: white; /* Makes "Quadratic Calculator" white */
-}
-
-a {
-    box-sizing: border-box;
 }
 
 h3 {
