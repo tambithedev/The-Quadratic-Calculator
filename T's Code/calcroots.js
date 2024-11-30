@@ -16,10 +16,14 @@ function calcRoots(a, b, c) {
 	document.getElementById("step4var3").innerHTML = ""
 
 //validate whether it's a number	
-		if ((isNaN(a)) || (isNaN(b)) || (isNaN(c)) || (a == 0)) {
+	if ((isNaN(a)) || (isNaN(b)) || (isNaN(c)) || (a == 0)) {
 		window.alert("Invalid Input.");
 		return "";
 	}
+
+//show calculate discriminant button
+let q = document.getElementById('calcDiscButton');
+q.removeAttribute("hidden");
 
 //if negative discriminant, don't show roots
 	let D;
@@ -28,14 +32,18 @@ function calcRoots(a, b, c) {
 		document.getElementById("negDisc").innerHTML = "This will create complex roots. We do not support this feature. Complex numbers are not real.";
 		return "";
 	}
+	
+//show show steps button
+let p = document.getElementById('showStepsButton');
+p.removeAttribute("hidden");	
 
 //show roots
 	let root1;
 	let root2;
 	root1 = ((0 - b) + Math.sqrt(D)) / (2 * a);
 	root2 = ((0 - b) - Math.sqrt(D)) / (2 * a);
-	document.getElementById("Root 1").innerHTML = "Root 1: " + root1;
-	document.getElementById("Root 2").innerHTML = "Root 2: " + root2;
+	document.getElementById("Root 1").innerHTML = "X<sub>1</sub> = " + root1;
+	document.getElementById("Root 2").innerHTML = "X<sub>2</sub> = " + root2;
 	const roots = [root1, root2];
 	return roots;
 }
