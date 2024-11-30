@@ -26,5 +26,14 @@ function implement() {
 			document.getElementById("Root 1").innerHTML = "X<sub>1</sub> $20 decillion";
 			document.getElementById("Root 2").innerHTML = "X<sub>2</sub> $0";
 			document.getElementById("extraMessage").innerHTML = "(maybe)";
+		case "7":
+			document.getElementById("Root 1").innerHTML = "Who Cares??? Go stream The Edge of Sleep!"
+		case "8":
+			document.getElementById("Root 1").innerHTML = "idk tbh but the roots are probably on this graph somewhere that's helpful I think???"
+			let q = document.getElementById('graph');
+			q.removeAttribute("hidden");
+		case "9":
+			document.getElementById("Root 1").innerHTML = "-1/12"
+			document.getElementById("Root 2").innerHTML = 'There are no other "solutions". All roads lead to here.'
 	}
 }
