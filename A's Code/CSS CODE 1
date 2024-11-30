@@ -75,19 +75,12 @@ h1 {
     color: white;
 }
 
-a {
-    text-decoration: none;
-}
-
 .small-text {
     font-size: 0.8em;
     color: #aaa;
     text-transform: uppercase;
 }
 
-a {
-    text-decoration: none;
-}
 
 .small-text {
     font-size: 0.8em;
@@ -101,10 +94,6 @@ a h1 {
 
 h3 {
     color: white; /* Makes "Negative numbers are also accepted" white */
-}
-
-a {
-    text-decoration: none;
 }
 
 h1 + h1 {
