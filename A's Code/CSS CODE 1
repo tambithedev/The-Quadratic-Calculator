@@ -81,13 +81,6 @@ h1 {
     text-transform: uppercase;
 }
 
-
-.small-text {
-    font-size: 0.8em;
-    color: #aaa;
-    text-transform: uppercase;
-}
-
 a h1 {
     color: white; /* Makes "Quadratic Calculator" white */
 }
@@ -96,9 +89,4 @@ h3 {
     color: white; /* Makes "Negative numbers are also accepted" white */
 }
 
-.small-text {
-    font-size: 0.8em; 
-    color: #aaa; 
-    text-transform: uppercase; 
-}
 }
