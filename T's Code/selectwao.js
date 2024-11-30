@@ -20,15 +20,15 @@ function selectWao() {
 			location.href = "swao1.html";
 			break;
 		case 6:
-			location.href = "" /*"parkourPageUrl"*/;
+			location.href = "swao2.html";
 			break;
 		case 7:
-			location.href = "" /*"sleepPageUrl"*/;
+			location.href = "swao3.html";
 			break;
 		case 8:
-			location.href = "" /*"graphPageUrl"*/;
+			location.href = "swao4.html";
 			break;
 		case 9:
-			location.href = "" /*"-1/12PageUrl"*/;
+			location.href = "swao5.html";
 	}
 }
