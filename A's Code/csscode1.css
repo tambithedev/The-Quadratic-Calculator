@@ -13,7 +13,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     margin: 0;
 }
 
@@ -83,6 +82,10 @@ h1 {
 
 a h1 {
     color: white; /* Makes "Quadratic Calculator" white */
+}
+
+a {
+    box-sizing: border-box;
 }
 
 h3 {
