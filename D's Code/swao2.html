@@ -9,13 +9,17 @@
 <a href="index.html">
   <h1>Quadratic Calculator</h1>
 </a>
+<h2>Enter in the format: ax<sup>2</sup>+bx+c</h2>
+<h3>Negative numbers are also accepted.</h3>
+<form>
+    <input id="a" name="a">
+    <input id="b" name="b">
+    <input id="c" name="c">
+    <h1>    </h1>
 
-<h1>This was a personality test all along.</h1>
-<h2>You made:</h2>
-<p id="chicken"></p>
-<p id="beef"></p>
-<p id="vineBooms"></p>
-<p id="bonus"></p>
-<p id="rank"></p>
+    <button type="button" onclick="trueEnding(document.getElementById('a').value,document.getElementById('b').value,document.getElementById('c').value);">Calculate</button>
+</form>
+
+<script src="swao.js" type="text/javascript"></script>
 </body>
 </html>
