@@ -75,12 +75,6 @@ h1 {
     color: white;
 }
 
-button:hover {
-    background: linear-gradient(135deg, #2575fc, #6a11cb);
-    transform: translateY(-5px);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
-}
-
 a {
     text-decoration: none;
 }
@@ -90,13 +84,6 @@ a {
     color: #aaa;
     text-transform: uppercase;
 }
-
-button:hover {
-    background: linear-gradient(135deg, #2575fc, #6a11cb);
-    transform: translateY(-5px);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
-}
-
 
 a {
     text-decoration: none;
@@ -114,12 +101,6 @@ a h1 {
 
 h3 {
     color: white; /* Makes "Negative numbers are also accepted" white */
-}
-
-button:hover {
-    background: linear-gradient(135deg, #2575fc, #6a11cb);
-    transform: translateY(-5px);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
 }
 
 a {
