@@ -87,19 +87,6 @@ body, h1, a, button {
     box-sizing: border-box;
 }
 
-body {
-    font-family: 'Arial', sans-serif;
-    background: linear-gradient(135deg, #4e54c8, #8f94fb);
-    color: white;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-}
-
 h1 {
     font-size: 3rem;
     margin: 20px 0;
@@ -142,21 +129,6 @@ body, h1, a, button {
     padding: 0;
     box-sizing: border-box;
 }
-
-
-body {
-    font-family: 'Arial', sans-serif;
-    background: linear-gradient(135deg, #4e54c8, #8f94fb);
-    color: white;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-}
-
 
 h1 {
     font-size: 3rem;
@@ -216,19 +188,6 @@ body, h1, a, button {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body {
-    font-family: 'Arial', sans-serif;
-    background: linear-gradient(135deg, #4e54c8, #8f94fb);
-    color: white;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
 }
 
 h1 {
