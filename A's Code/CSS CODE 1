@@ -81,11 +81,6 @@ h1 + h1 {
     color: #aaa; 
     text-transform: uppercase; 
 }
-body, h1, a, button {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 h1 {
     font-size: 3rem;
@@ -123,11 +118,6 @@ a {
     font-size: 0.8em;
     color: #aaa;
     text-transform: uppercase;
-}
-body, h1, a, button {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
 
 h1 {
@@ -183,11 +173,6 @@ a {
     font-size: 0.8em;
     color: #aaa;
     text-transform: uppercase;
-}
-body, h1, a, button {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
 
 h1 {
