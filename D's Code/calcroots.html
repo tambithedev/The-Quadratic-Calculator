@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Calculate Roots</title>
+    <title>Calculate Roots | The Quadratic Calculator</title>
     <style>
         /* Styling for smaller heading text */
         .small-heading {
@@ -16,13 +16,17 @@
     </style>
     <link rel="stylesheet" href="csscode1.css">
 </head>
-<body>
+<body style="margin-top:150px">
 
-<a href="index.html">
-    <h1>The Quadratic Calculator</h1>
-</a>
-    <h2>Enter number values in the format ax<sup>2</sup> + bx + c</h2>
-    <h3>Negative numbers are also accepted.</h3>
+<div class="navbar">
+	<a href="index.html">
+   	     <h1>The Quadratic Calculator</h1>
+	</a>
+</div>
+<div>
+    <h2 style="color:#dddddd">Enter real numbers in the format:</h2>
+    <h2><u>a</u>x<sup>2</sup> + <u>b</u>x + <u>c</u></h2>
+</div>
 <form>
     <input id="a" name="a" placeholder="Input value of a:">
     <input id="b" name="b" placeholder="Input value of b:">
@@ -39,7 +43,6 @@
 <h2 id="Root 2"></h2>
 <h2 id="negDisc"></h2>
 
-<h3 id="displayCoefficients"></h3>
 <h3 id="step1var1"></h3>
 <h3 id="step1var2"></h3>
 <h3 id="step2var1"></h3>
