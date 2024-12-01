@@ -4,9 +4,31 @@ body, h1, a, button {
     box-sizing: border-box;
 }
 
-body {
+.navbar, .navbartte {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar {
+  background-color: #4e54cd;
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  border-bottom-color: #6a11cb;
+  }
+
+.navbartte {
+  background-color: #00AA00;
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  border-bottom-color: #009000;
+}
+
+body, .ttebody {
     font-family: 'Arial', sans-serif;
     background: linear-gradient(135deg, #4e54c8, #8f94fb);
+    background-attachment: fixed;
     color: white;
     text-align: center;
     display: flex;
@@ -14,6 +36,12 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0;
+    margin-top: 100px;
+}
+
+.ttebody {
+    background: linear-gradient(-135deg, #4e54c8, #55ff55);
+    background-attachment: fixed;
 }
 
 .calculator {
@@ -85,5 +113,5 @@ a h1 {
 }
 
 h3 {
-    color: white; /* Makes "Negative numbers are also accepted" white */
+    color: #dddddd;
 }
