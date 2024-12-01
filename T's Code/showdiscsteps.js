@@ -5,10 +5,6 @@ function showDiscSteps(a, b, c) {
 		window.alert("Invalid Input.");
 		return "";
 	}
-
-	//show variables being used at the beginning
-	document.getElementById("displayCoefficients").innerHTML =
-		"a = " + a + "<br>" + "b = "+ b + "<br>" + "c = " + c;
 	
 	//define variables to be used in next step for simplification
 	let E;
