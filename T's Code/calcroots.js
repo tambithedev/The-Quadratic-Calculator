@@ -3,7 +3,6 @@ function calcRoots(a, b, c) {
 	document.getElementById("Root 1").innerHTML = ""
 	document.getElementById("Root 2").innerHTML = ""
 	document.getElementById("negDisc").innerHTML = ""
-	document.getElementById("displayCoefficients").innerHTML = ""
 	document.getElementById("step1var1").innerHTML = ""
 	document.getElementById("step1var2").innerHTML = ""
 	document.getElementById("step2var1").innerHTML = ""
