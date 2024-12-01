@@ -1,7 +1,6 @@
 function calcDisc(a, b, c) {
 //first, hide elements from a potential previous calculation 
 	document.getElementById("Discriminant").innerHTML = ""
-	document.getElementById("displayCoefficients").innerHTML = ""
 	document.getElementById("step1var1").innerHTML = ""
 	document.getElementById("step1var2").innerHTML = ""
 
