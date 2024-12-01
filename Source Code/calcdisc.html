@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculate Discriminant | The Quadratic Calculator</title>
+    <link rel="stylesheet" href="csscode1.css">
+</head>
+<body style="margin-top:150px">
+<div class="navbar">
+        <a href="index.html">
+                <h1>The Quadratic Calculator</h1>
+        </a>
+</div>
+<div>
+    <h2 style="color:#dddddd">Enter real numbers in the format:</h2>
+    <h2><u>a</u>x<sup>2</sup> + <u>b</u>x + <u>c</u></h2>
+</div>
+    <form>
+        <input id="a" name="a" placeholder="Input value of a:">
+        <input id="b" name="b" placeholder="Input value of b:">
+        <input id="c" name="c" placeholder="Input value of c:">
+        <h1>    </h1>
+        <button id="calcDiscButton" type="button" onclick="calcDisc(document.getElementById('a').value,document.getElementById('b').value,document.getElementById('c').value)">Calculate</button>
+        <button hidden id="showStepsButton" type="button" onclick="showDiscSteps(document.getElementById('a').value,document.getElementById('b').value,document.getElementById('c').value)">Show Solution Steps</button>
+    </form>
+
+<h2 id="Discriminant"></h2>
+<h3 id="step1var1"></h3>
+<h3 id="step1var2"></h3>
+
+    <script src="calcdisc.js" type="text/javascript"></script>
+<script src="showdiscsteps.js" type="text/javascript"></script>
+
+</body>
+</html>
