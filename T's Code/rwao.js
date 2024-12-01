@@ -37,6 +37,6 @@ function implement() {
 			break;
 		case "9":
 			document.getElementById("Root 1").innerHTML = "-1/12"
-			document.getElementById("Root 2").innerHTML = 'There are no other "solutions". All roads lead to here.'
+			document.getElementById("Root 2").innerHTML = 'There are no other "solutions". All roads lead here.'
 	}
 }
