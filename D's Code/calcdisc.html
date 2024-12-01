@@ -2,15 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Calculate Discriminants</title>
+    <title>Calculate Discriminant | The Quadratic Calculator</title>
     <link rel="stylesheet" href="csscode1.css">
 </head>
-<body>
-<a href="index.html">
-    <h1>The Quadratic Calculator</h1>
-</a>
-    <h2>Enter number values in the format ax<sup>2</sup> + bx + c</h2>
-    <h3>Negative numbers are also accepted.</h3>
+<body style="margin-top:150px">
+<div class="navbar">
+        <a href="index.html">
+                <h1>The Quadratic Calculator</h1>
+        </a>
+</div>
+<div>
+    <h2 style="color:#dddddd">Enter real numbers in the format:</h2>
+    <h2><u>a</u>x<sup>2</sup> + <u>b</u>x + <u>c</u></h2>
+</div>
     <form>
         <input id="a" name="a" placeholder="Input value of a:">
         <input id="b" name="b" placeholder="Input value of b:">
@@ -20,10 +24,9 @@
         <button hidden id="showStepsButton" type="button" onclick="showDiscSteps(document.getElementById('a').value,document.getElementById('b').value,document.getElementById('c').value)">Show Solution Steps</button>
     </form>
 
-<p id="Discriminant"></p>
-<p id="displayCoefficients"></p>
-<p id="step1var1"></p>
-<p id="step1var2"></p>
+<h2 id="Discriminant"></h2>
+<h3 id="step1var1"></h3>
+<h3 id="step1var2"></h3>
 
     <script src="calcdisc.js" type="text/javascript"></script>
 <script src="showdiscsteps.js" type="text/javascript"></script>
